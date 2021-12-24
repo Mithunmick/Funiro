@@ -1,0 +1,39 @@
+.feature {
+  display: flex;
+  padding: 100px 50px;
+}
+.HQ {
+  display: flex;
+  align-items: center;
+  padding: 0px 98px;
+}
+.WP {
+  display: flex;
+  align-items: center;
+  padding: 0px 98px;
+}
+.FS {
+  display: flex;
+  align-items: center;
+  padding: 0px 98px;
+}
+.SP {
+  display: flex;
+  align-items: center;
+  padding: 0px 98px;
+}
+
+.HQ_I {
+  padding: 24px 24px;
+}
+
+.HQ_T {
+  font-size: 10px;
+  white-space: nowrap;
+  line-height: 15px;
+}
+.thin {
+  font-weight: 400;
+  color: #898989;
+  font-family: Gilroy;
+}
