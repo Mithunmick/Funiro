@@ -1,0 +1,48 @@
+.foot {
+  height: 300px;
+}
+.footer_container {
+  display: flex;
+  padding: 60px 120px 10px;
+  gap: 120px;
+  flex: 1 1 auto;
+}
+.Funiro {
+  width: 250px;
+}
+
+.adress {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.phone {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.search_input1 {
+  width: 300px;
+  height: 50px;
+  border: none;
+  background-color: #d8d8d8;
+  color: #828282;
+}
+
+.Stay_Updated {
+  display: flex;
+  flex-direction: column;
+}
+
+.Stay_s {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.broder {
+  padding: 7px;
+  background-color: #e89f71;
+  cursor: pointer;
+}

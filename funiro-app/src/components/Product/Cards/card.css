@@ -1,0 +1,54 @@
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 32px 100px;
+}
+.cards__item {
+  display: flex;
+  padding: 10px;
+}
+
+.card {
+  background-color: #f4f5f7;
+  width: 400px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.card__content {
+  display: flex;
+
+  flex-direction: column;
+}
+
+.card__image {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card__text {
+  font-size: 16px;
+  padding: 0px 32px;
+}
+
+.card__title {
+  font-size: 25px;
+  font-weight: 500;
+  padding: 10px 32px;
+}
+
+.card__number {
+  display: flex;
+  padding: 0px 3px;
+  align-items: center;
+}
+
+.card__line {
+  text-decoration-line: line-through;
+  color: #b0b0b0;
+  font-size: 25px;
+}

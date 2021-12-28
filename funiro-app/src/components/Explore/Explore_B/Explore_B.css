@@ -1,0 +1,40 @@
+.explore {
+  background-color: #fcf8f3;
+  position: relative;
+  height: 100vh;
+  top: 50px;
+}
+
+.explore_contant {
+  padding: 300px 120px;
+
+  width: 450px;
+  height: 150px;
+}
+.E_text {
+  padding: 0px 0px 40px 0px;
+}
+
+.E_title {
+  font-size: 45px;
+  color: #3a3a3a;
+  margin: 0;
+}
+.E_sub {
+  font-size: 20px;
+  color: #616161;
+}
+
+.E_button {
+  background-color: #e89f71;
+  color: white;
+  border: 1px solid #e89f71;
+  width: 205px;
+  height: 55px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: 500;
+}
+.B-text {
+  text-align: center;
+}
