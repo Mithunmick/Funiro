@@ -2,82 +2,22 @@ import React from 'react';
 import './card.css';
 import img from '../../../assets/images/Images.jpg';
 import CardComponent from '../../../utils/CardComponent';
+import { cardData } from '../../../helper/cardData';
 const CardP = () => {
   return (
     <>
       <ul class='cards'>
-        <li class='cards__item'>
-          <CardComponent
-            img={img}
-            title='Syltherine'
-            des='Stylish cafe chair'
-            dPrice='2.500.000'
-            cPrice='3.500.000'
-          />
-        </li>
-        <li class='cards__item'>
-          <CardComponent
-            img={img}
-            title='Syltherine'
-            des='Stylish cafe chair'
-            dPrice='2.500.000'
-            cPrice='3.500.000'
-          />
-        </li>
-        <li class='cards__item'>
-          <CardComponent
-            img={img}
-            title='Syltherine'
-            des='Stylish cafe chair'
-            dPrice='2.500.000'
-            cPrice='3.500.000'
-          />
-        </li>
-        <li class='cards__item'>
-          <CardComponent
-            img={img}
-            title='Syltherine'
-            des='Stylish cafe chair'
-            dPrice='2.500.000'
-            cPrice='3.500.000'
-          />
-        </li>
-        <li class='cards__item'>
-          <CardComponent
-            img={img}
-            title='Syltherine'
-            des='Stylish cafe chair'
-            dPrice='2.500.000'
-            cPrice='3.500.000'
-          />
-        </li>
-        <li class='cards__item'>
-          <CardComponent
-            img={img}
-            title='Syltherine'
-            des='Stylish cafe chair'
-            dPrice='2.500.000'
-            cPrice='3.500.000'
-          />
-        </li>
-        <li class='cards__item'>
-          <CardComponent
-            img={img}
-            title='Syltherine'
-            des='Stylish cafe chair'
-            dPrice='2.500.000'
-            cPrice='3.500.000'
-          />
-        </li>
-        <li class='cards__item'>
-          <CardComponent
-            img={img}
-            title='Syltherine'
-            des='Stylish cafe chair'
-            dPrice='2.500.000'
-            cPrice='3.500.000'
-          />
-        </li>
+        {cardData.map((items, i) => (
+          <li class='cards__item'>
+            <CardComponent
+              img={items.img}
+              title={items.title}
+              des={items.des}
+              dPrice={items.dPrice}
+              cPrice={items.cPrice}
+            />
+          </li>
+        ))}
       </ul>
     </>
   );

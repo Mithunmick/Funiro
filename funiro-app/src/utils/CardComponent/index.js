@@ -6,7 +6,7 @@ const CardComponent = ({ img, title, des, cPrice, dPrice }) => {
     <>
       <div class='card'>
         <div class='card__content'>
-          <img src={img} alt='img' />
+          <img className='card__image' src={img} alt='img' />
           <div class='card__title'>{title}</div>
           <p class='card__text'>{des}</p>
           <div className='card__number'>

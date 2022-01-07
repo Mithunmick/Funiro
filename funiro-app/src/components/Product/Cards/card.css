@@ -27,7 +27,8 @@
 .card__image {
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
+  height: 400px;
 }
 
 .card__text {

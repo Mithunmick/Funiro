@@ -1,6 +1,8 @@
 import React from 'react';
 import { Icon } from '@iconify/react';
 import './footer.css';
+import { accountItems, menuItems, socialItems } from '../../helper/FooterData';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -25,24 +27,26 @@ const Footer = () => {
           </div>
           <div className='Menu'>
             <h1 className='title'>Menu</h1>
-            <p className='sub1'>Products</p>
-            <p className='sub1'>Rooms</p>
-            <p className='sub1'>Inspirations</p>
-            <p className='sub1'>About Us</p>
-            <p className='sub1'>Terms & Policy</p>
+            {menuItems.map((items, i) => (
+              <div key={i} className='sub1'>
+                <Link to={items.url}>{items.text}</Link>
+              </div>
+            ))}
           </div>
           <div className='Account'>
             <h1 className='title'>Account</h1>
-            <p className='sub1'>My Account</p>
-            <p className='sub1'>Checkout</p>
-            <p className='sub1'>My Cart</p>
-            <p className='sub1'>My catalog</p>
+            {accountItems.map(items => (
+              <p className='sub1'>{items}</p>
+            ))}
           </div>
           <div className='Stay_Connected'>
             <h1 className='title'>Stay Connected</h1>
-            <p className='sub1'>Facebook</p>
-            <p className='sub1'>Instagram</p>
-            <p className='sub1'>Twitter</p>
+
+            {socialItems.map(items => (
+              <div className='sub1'>
+                <a href={items.url}>{items.text}</a>
+              </div>
+            ))}
           </div>
           <div className='Stay_Updated'>
             <h1 className='title'>Stay Updated</h1>

@@ -1,0 +1,58 @@
+export const cardData = [
+  {
+    img: 'https://images.unsplash.com/photo-1629993470881-09a7578cf96e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=934&q=80',
+    title: 'Syltherine',
+    des: 'Stylish cafe chair',
+    dPrice: '2.500.000',
+    cPrice: '3.500.000',
+  },
+  {
+    img: 'https://images.unsplash.com/photo-1629993470881-09a7578cf96e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=934&q=80',
+    title: 'Syltherine',
+    des: 'Stylish cafe chair',
+    dPrice: '2.500.000',
+    cPrice: '3.500.000',
+  },
+  {
+    img: 'https://images.unsplash.com/photo-1629993470881-09a7578cf96e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=934&q=80',
+    title: 'Syltherine',
+    des: 'Stylish cafe chair',
+    dPrice: '2.500.000',
+    cPrice: '3.500.000',
+  },
+  {
+    img: 'https://images.unsplash.com/photo-1629993470881-09a7578cf96e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=934&q=80',
+    title: 'Syltherine',
+    des: 'Stylish cafe chair',
+    dPrice: '2.500.000',
+    cPrice: '3.500.000',
+  },
+  {
+    img: 'https://images.unsplash.com/photo-1629993470881-09a7578cf96e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=934&q=80',
+    title: 'Syltherine',
+    des: 'Stylish cafe chair',
+    dPrice: '2.500.000',
+    cPrice: '3.500.000',
+  },
+  {
+    img: 'https://images.unsplash.com/photo-1629993470881-09a7578cf96e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=934&q=80',
+    title: 'Syltherine',
+    des: 'Stylish cafe chair',
+    dPrice: '2.500.000',
+    cPrice: '3.500.000',
+  },
+  {
+    img: 'https://images.unsplash.com/photo-1629993470881-09a7578cf96e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=934&q=80',
+    title: 'Syltherine',
+    des: 'Stylish cafe chair',
+    dPrice: '2.500.000',
+    cPrice: '3.500.000',
+  },
+  {
+    img: 'https://images.unsplash.com/photo-1629993470881-09a7578cf96e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=934&q=80',
+    title: 'Syltherine',
+    des: 'Stylish cafe chair',
+    dPrice: '2.500.000',
+    cPrice: '3.500.000',
+  },
+];
