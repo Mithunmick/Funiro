@@ -1,6 +1,5 @@
 import React from 'react';
 import './card.css';
-import img from '../../../assets/images/Images.jpg';
 import CardComponent from '../../../utils/CardComponent';
 import { cardData } from '../../../helper/cardData';
 const CardP = () => {

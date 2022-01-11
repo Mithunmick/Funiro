@@ -4,6 +4,7 @@ import Feature from '../../components/Feature';
 import Grid from '../../components/Grid';
 import HeroComp from '../../components/LandingComp/HeroComp';
 import Product from '../../components/Product';
+import Tips from '../../components/Tips';
 
 import LandingLayout from '../../layouts/LandingPage';
 
@@ -15,6 +16,7 @@ const LandingPage = () => {
         <Feature />
         <Product />
         <Explore />
+        <Tips />
         <Grid />
       </LandingLayout>
     </>
